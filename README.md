@@ -1,6 +1,6 @@
 # SimDAT2D
 
-A 2D X-ray pattern generator using PyFAI to simulate thin film data deposited onto single crystal substrates.
+A 2D X-ray pattern generator using PyFAI created by the [Butala Research Group](https://github.com/ButalaResearchGroup) to simulate thin film data deposited onto single crystal substrates.
 
 ![Alt text](SimDAT2D/sim.png)
 
