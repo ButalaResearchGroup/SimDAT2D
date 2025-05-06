@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2024, Danielle N. Alverson
+Copyright (c) 2025, Danielle N. Alverson
 
 All rights reserved.
 
