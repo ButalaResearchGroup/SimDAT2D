@@ -33,13 +33,12 @@ git clone https://github.com/dnalverson/SimDAT2D
 
 # Change into the project directory
 cd SimDAT2D
-cd SimDAT2D
 
 # Install dependencies
-pip install -e .
+pip install -e . --use-pep517 
 
 # Start the project
-import SimDAT2D as sd
+import SimDAT2D as sim
 
 ```
 
