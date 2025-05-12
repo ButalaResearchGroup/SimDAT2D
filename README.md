@@ -33,6 +33,7 @@ git clone https://github.com/dnalverson/SimDAT2D
 
 # Change into the project directory
 cd SimDAT2D
+cd SimDAT2D
 
 # Install dependencies
 pip install -e .
