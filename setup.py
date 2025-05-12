@@ -11,5 +11,5 @@ setup(
     author_email='dalverson@ufl.edu',
     packages = ['SimDAT2D'],
     url='https://github.com/dnalverson/SimDAT2D/',
-    install_requires = ['matplotlib', 'pyFAI', 'scipy', 'numpy', 'pandas', 'dask', 'pyOpenCl']
+    install_requires = ['matplotlib', 'pyFAI', 'scipy', 'numpy', 'pandas']
 )
