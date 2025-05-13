@@ -350,7 +350,7 @@ def image_rotation(image, angle, show = False):
         plt.show()
     return rotated_image
 
-def rotate_and_integrate(combined_image, angle_of_rotation, distance, wavelength, resolution = 3000, mask = None):
+def rotate_and_integrate(combined_image, angle_of_rotation, distance, wavelength, resolution = 3000, radial_range = None, mask = None):
     """
     This function takes the combined image, the mask, the distance, the wavelength, and the resolution of integration, and rotates the combined image by a user specified angle amount, if the angle specified is 1, the result will be 360 integrations of the combined image, each integration will be rotated by 1 degree.
     
@@ -375,7 +375,7 @@ def rotate_and_integrate(combined_image, angle_of_rotation, distance, wavelength
     
         
         #integrate the rotated image
-        q, I = integrate_image(rotated_image, distance, wavelength, resolution, mask, show = False);
+        q, I = integrate_image(rotated_image, distance, wavelength, resolution, mask, radial_range = radial_range, show = False);
         
         #add the 1D integration to the dataframe
         df[i] = I
