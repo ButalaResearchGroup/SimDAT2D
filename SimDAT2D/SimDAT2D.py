@@ -1,4 +1,4 @@
-# Copyright (c) 2023, Danielle N. Alverson
+# Copyright (c) 2025, Danielle N. Alverson
 # All rights reserved.
 #
 # This software is licensed under the BSD 3-Clause License.
@@ -16,7 +16,7 @@ from PIL import Image
 import numpy as np
 import numpy.ma as ma
 import numpy.random as rnd
-import pyFAI.azimuthalIntegrator as AI
+import pyFAI.integrator.azimuthal as AI
 import pandas as pd
 import dask
 from dask import delayed
