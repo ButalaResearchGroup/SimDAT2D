@@ -3,5 +3,3 @@ pyFAI
 scipy
 numpy
 pandas
-dask
-pyOpenCl

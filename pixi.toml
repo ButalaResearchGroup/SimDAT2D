@@ -1,5 +1,5 @@
 [workspace]
-authors = ["Dan Olds <dolds@bnl.gov>"]
+authors = ["Dan Olds <dolds@bnl.gov>", "Megan Butala <mbutala@ufl.edu>"]
 channels = ["conda-forge"]
 name = "SimDAT2D"
 platforms = ["win-64"]
